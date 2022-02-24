@@ -30,7 +30,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
         image: alaaabdelkareem94/flask-app
-        registry: docker.io
+        registry: ubuntu-latest
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
   
