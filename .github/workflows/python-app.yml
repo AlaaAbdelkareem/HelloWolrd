@@ -29,7 +29,6 @@ jobs:
     - name: build and push docker image
       uses: docker/build-push-action/@v1
       with:
-        image: alaaabdelkareem94/flask-app
-        registry: docker.io
+        registry: alaaabdelkareem94/flask-app
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
